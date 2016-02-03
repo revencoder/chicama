@@ -1,0 +1,112 @@
+header.cabecera{
+	background: url("../img/grupal.jpg") no-repeat center; 
+	min-height: 700px;
+	background-size: cover;
+}
+/*center fixed;(sirve para la imagen se quede empotrada)*/ 
+
+.logo{
+	width: 300px;
+	height: 50px;
+	/*margin: 60px 0px 0px 310px; (otra forma)*/
+	position:absolute;
+	top:60px;
+	right: 340px
+}
+
+nav{
+
+	font-size: 25px; 
+	padding:20px;
+	display: inline-block;
+	float: right;
+	position: relative;
+}
+
+
+li{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.boton{
+	width: 200px;
+	height:100px;
+	background:#FCB739;
+	position: relative;
+	right: 650px;
+	top: 30px;
+}
+
+.textbo{
+	font-size: 16px;
+	font-weight: 300px;
+	padding:40px 0px 0px 72px;
+}
+
+.seccion{
+	background-color: white;
+	margin top: 50px;
+	margin-bottom: 50px;
+}
+
+.peque{
+	width: 292px;
+	height: 196px;
+	margin: 50px 0px 0px 0px;
+
+}
+
+.titular{
+	width: 300px;
+	font-weight: 700;
+	font-size: 19px;
+	border-bottom: 1px solid black;
+}
+
+.espacio{
+	margin: 390px;
+}
+
+footer{
+	background-color: #323230;
+	width: 100%;
+	height: 100%;
+}
+
+.fotex{
+	color:white;
+	font-weight: 300;
+}
+
+.box{
+	margin: 50px 0px 50px 200px;
+}
+
+.ico{
+	 position: relative;
+	 top: 6px;
+}
+
+a{ 
+	color:white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #099ADC;
+	text-decoration: none;
+}
+
+a.link{
+	color:black;
+	text-decoration: none;
+}
+
+
+a:hover.link{
+	color:#FCB739;
+	text-decoration: none;
+}
